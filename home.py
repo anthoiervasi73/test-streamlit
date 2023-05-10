@@ -296,7 +296,7 @@ fig3.update_xaxes(title_text="Années")
 st.plotly_chart(fig3)
 
 st.markdown("""<div style='background-color: #f1f1f1; border: 2px solid #777777;border-radius: 5px;padding: 10px; text-align: center; font-family: Arial;'>
-        <p>Nous pouvons constater que le Japon est en tête, suivie de près par l'Europe, alors que les US sont bons derniers chaque année en termes de miles parcourus avec un plein d'essence</div>
+        <p>Nous pouvons constater que le Japon est en tête, suivie de près par l'Europe, alors que les US sont bons derniers chaque année en termes de miles parcourus par gallon d'essence</div>
 """, unsafe_allow_html=True)
 
 
