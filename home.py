@@ -22,7 +22,7 @@ df_us = df.loc[df['continent'] == 'US']
 st.markdown("<style>@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Condensed:ital@1&display=swap');</style>", unsafe_allow_html=True)
 
 # image 
-image = Image.open(ford.png)
+image = Image.open('ford.png')
 
 
 # debut de l'application 
