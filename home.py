@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import streamlit as st
+from PIL import image
 
 
 # definition des df a utiliser dans notre page 
@@ -19,6 +20,9 @@ df_us = df.loc[df['continent'] == 'US']
 
 # Intégrer la police Sigmar à Streamlit en utilisant @import
 st.markdown("<style>@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Condensed:ital@1&display=swap');</style>", unsafe_allow_html=True)
+
+# image 
+image = Image.open(ford.png)
 
 
 # debut de l'application 
@@ -41,7 +45,7 @@ st.markdown('<p style="color: #60a9d9; font-family:Carter One; font-size: 35px; 
 # afficher une image
 image_container = st.container()
 with image_container:
-    st.image('https://zupimages.net/up/23/19/dk48.png', use_column_width=True)
+    st.image(image, use_column_width=True)
 
 # Centrer le conteneur
 image_container.text_align = "center"
