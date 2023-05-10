@@ -124,7 +124,7 @@ if Global:
     st.markdown("<br>", unsafe_allow_html=True)
     # afficher un texte encadrer
     st.markdown("""<div style='background-color: #f1f1f1; border: 2px solid #777777;border-radius: 5px;padding: 10px; text-align: center; font-family: Arial;'>
-        <p>Les données initiales qui comprennent les 3 zones géographiques nous montre que les meilleures corrélations sont entre cylinders et cubicinches (0.95), weightlbs et cubicinches (0.93)  hp et cubicinches (0.91) ainsi qu'entre weightlbs et cylinders (0.89). Globalement, il existe une forte corrélation entre les caractéristiques moteur tel que cylinders, cubicinches, hp ainsi que le poids des véhicules</div>
+        <p>Les données initiales qui comprennent les 3 zones géographiques nous montrent que les meilleures corrélations sont entre cylinders et cubicinches (0.95), weightlbs et cubicinches (0.93)  hp et cubicinches (0.91) ainsi qu'entre weightlbs et cylinders (0.89). Globalement, il existe une forte corrélation entre les caractéristiques moteur tel que cylinders, cubicinches, hp ainsi que le poids des véhicules</div>
 """, unsafe_allow_html=True)
 
     
@@ -142,7 +142,7 @@ elif Europe:
     st.markdown("<br>", unsafe_allow_html=True)
      # afficher un texte encadrer
     st.markdown("""<div style='background-color: #f1f1f1; border: 2px solid #777777;border-radius: 5px;padding: 10px; text-align: center; font-family: Arial;'>
-        <p>Les données de l'Europe nous montre que les meilleures corrélations sont : weightlbs et cubicinches (0.83), puis hp et mpg (0.69) ainsi qu'entre cubicinches et cylinders (0.69). Globalement, il existe les mêmes corrélations que celles du Japon avec une importance en plus pour le rapport consommation/puissance</div>
+        <p>Les données de l'Europe nous montrent que les meilleures corrélations sont : weightlbs et cubicinches (0.83), puis hp et mpg (0.69) ainsi qu'entre cubicinches et cylinders (0.69). Globalement, il existe les mêmes corrélations que celles du Japon avec une importance en plus pour le rapport consommation/puissance</div>
 """, unsafe_allow_html=True)
 
     
@@ -159,7 +159,7 @@ elif Japon:
      # Ajouter un espace
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("""<div style='background-color: #f1f1f1; border: 2px solid #777777;border-radius: 5px;padding: 10px; text-align: center; font-family: Arial;'>
-        <p> Les données du Japon nous montre que les meilleures corrélations sont : weightlbs et cubicinches/hp (0.87), puis hp et cubicinches (0.78) ainsi qu'entre cubicinches et cylinders (0.76). Globalement, il existe les mêmes corrélations qu'au niveau mondial avec une importance particulière sur le poids des véhicules, ce qui peut s'expliquer entre autre par le fait que le Japon possède une surface moindre par rapport aux US, les véhicules de petit gabarit semblent donc être majoritaire.</div>
+        <p> Les données du Japon nous montrent que les meilleures corrélations sont : weightlbs et cubicinches/hp (0.87), puis hp et cubicinches (0.78) ainsi qu'entre cubicinches et cylinders (0.76). Globalement, il existe les mêmes corrélations qu'au niveau mondial avec une importance particulière sur le poids des véhicules, ce qui peut s'expliquer entre autre par le fait que le Japon possède une surface moindre par rapport aux US, les véhicules de petit gabarit semblent donc être majoritaires.</div>
 """, unsafe_allow_html=True)
    
 
@@ -179,7 +179,7 @@ elif US:
     st.markdown("<br>", unsafe_allow_html=True)
     # afficher un sous titre centrer
     st.markdown("""<div style='background-color: #f1f1f1; border: 2px solid #777777;border-radius: 5px;padding: 10px; text-align: center; font-family: Arial;'>
-        <p>Les données des US nous montre que les meilleures corrélations sont : cylinders et cubicinches (0.93), cubicinches et weightlbs/hp (0.91) ainsi qu'entre weightlbs et cylinders (0.87). Globalement, il existe les mêmes corrélations qu'au niveau mondial avec les mêmes niveaux de corrélation,  ce qui semble logique, car nous avons beaucoup plus de donnée concernant le marché US que pour les deux autres marchés</div>
+        <p>Les données des US nous montrent que les meilleures corrélations sont : cylinders et cubicinches (0.93), cubicinches et weightlbs/hp (0.91) ainsi qu'entre weightlbs et cylinders (0.87). Globalement, il existe les mêmes corrélations qu'au niveau mondial avec les mêmes niveaux de corrélation,  ce qui semble logique, car nous avons beaucoup plus de données concernant le marché US que pour les deux autres marchés</div>
 """, unsafe_allow_html=True)
     
 else:
@@ -195,7 +195,7 @@ else:
     st.markdown("<br>", unsafe_allow_html=True)
     # afficher un texte encadrer
     st.markdown("""<div style='background-color: #f1f1f1; border: 2px solid #777777;border-radius: 5px;padding: 10px; text-align: center; font-family: Arial;'>
-        <p>Les données initiales comprenant les 3 zones géographiques nous montre que les meilleures corrélations sont entre cylinders et cubicinches (0.95), weightlbs et cubicinches (0.93)  hp et cubicinches (0.91) ainsi qu'entre weightlbs et cylinders (0.89). Globalement, il existe une forte corrélation entre les caractéristiques moteur tel que cylinders, cubicinches, hp ainsi que le poids des véhicules</div>
+        <p>Les données initiales comprenant les 3 zones géographiques nous montrent que les meilleures corrélations sont entre cylinders et cubicinches (0.95), weightlbs et cubicinches (0.93)  hp et cubicinches (0.91) ainsi qu'entre weightlbs et cylinders (0.89). Globalement, il existe une forte corrélation entre les caractéristiques moteur tel que cylinders, cubicinches, hp ainsi que le poids des véhicules</div>
 """, unsafe_allow_html=True)
 
 
@@ -269,7 +269,7 @@ fig2.update_xaxes(title_text="Années")
 st.plotly_chart(fig2)
 
 st.markdown("""<div style='background-color: #f1f1f1; border: 2px solid #777777;border-radius: 5px;padding: 10px; text-align: center; font-family: Arial;'>
-        <p>Nous pouvons constater que les Us sont largement en tête en termes de puissance moyenne de 1971 à 1980, mais cette tendance s'atténue de 1981 à 1983</div>
+        <p>Nous pouvons constater que les US sont largement en tête en termes de puissance moyenne de 1971 à 1980, mais cette tendance s'atténue de 1981 à 1983</div>
 """, unsafe_allow_html=True)
 
 
