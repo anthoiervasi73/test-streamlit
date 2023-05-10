@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import streamlit as st
-from PIL import image
+from PIL import Image
 
 
 # definition des df a utiliser dans notre page 
