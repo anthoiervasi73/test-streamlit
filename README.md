@@ -4,5 +4,7 @@ Dans le cadre de ma formation de Data Analyst, j'ai découvert un outil qui perm
 
 Ce mini-projet est le résultat de ma première utilisation de cette bibliothèque Python.
 
+**Stack technique** : Python (Pandas, Plotly, Seaborn), Streamlit, GitHub
+
 ## Lien de la web-app
 https://anthoiervasi73-decouverte-streamlit-home-vsjfcr.streamlit.app/
